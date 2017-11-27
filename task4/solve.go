@@ -7,7 +7,7 @@ import (
 
 func RemoveEven(slice []int) (noEvenSlice []int) {
 	for _, v := range slice {
-		if v & 1 == 0 {
+		if v & 1 == 1 {
 			noEvenSlice = append(noEvenSlice, v)
 		}
 	}
